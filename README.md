@@ -14,7 +14,7 @@ We will be Scraping 13 input Features along with the target. The objective is pr
 
 Data Dictionary :
 
-age
+age<br/>
 sex
 cp : chest pain type (4 values)
 trestbps : resting blood pressure
