@@ -15,18 +15,18 @@ We will be Scraping 13 input Features along with the target. The objective is pr
 Data Dictionary :
 
 age<br/>
-sex
-cp : chest pain type (4 values)
-trestbps : resting blood pressure
-chol : serum cholestoral in mg/dl
-fbs : fasting blood sugar > 120 mg/dl
-restecg : resting electrocardiographic results
-thalach : maximum heart rate achieved
-exang : exercise induced angina
-oldpeak : ST depression induced by exercise relative to rest
-slope : the slope of the peak exercise ST segment
-ca : number of major vessels (0-3) colored by flourosopy
-thal : integers representing normal, fixed defect, reversable defect
+sex<br/>
+cp : chest pain type (4 values)<br/>
+trestbps : resting blood pressure<br/>
+chol : serum cholestoral in mg/dl<br/>
+fbs : fasting blood sugar > 120 mg/dl<br/>
+restecg : resting electrocardiographic results<br/>
+thalach : maximum heart rate achieved<br/>
+exang : exercise induced angina<br/>
+oldpeak : ST depression induced by exercise relative to rest<br/>
+slope : the slope of the peak exercise ST segment<br/>
+ca : number of major vessels (0-3) colored by flourosopy<br/>
+thal : integers representing normal, fixed defect, reversable defect<br/>
 
 # Result Analysis
 The dataset has a linear trend. As the performance of SVM Classifier with linear and rbf kernel is better than polynomial kernels. But, in case of rbf kernel the log-loss score is least. so, it can be said that for the given dataset rbf kernel works best.
